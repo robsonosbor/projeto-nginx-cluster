@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide
+# Quick Start Guide
 
 ## 30 segundos para rodar o projeto
 
@@ -40,7 +40,7 @@ make down    # Para
 
 ---
 
-## 📚 Documentação
+## Documentação
 
 - **README.md** - Documentação principal
 - **TECHNICAL.md** - Guia técnico detalhado
@@ -49,7 +49,7 @@ make down    # Para
 
 ---
 
-## ⚡ Features
+##  Features
 
 ✅ Load Balancing (Nginx)  
 ✅ 3 Servidores PHP-FPM  
@@ -61,7 +61,7 @@ make down    # Para
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 **Porta 4500 em uso?**
 ```bash

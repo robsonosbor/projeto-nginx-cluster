@@ -2,7 +2,7 @@
 
 > Demonstração prática de um cluster load balancer com Nginx, PHP e MySQL em containers Docker
 
-## 📋 Descrição
+##  Descrição
 
 Este projeto implementa uma arquitetura de **microsserviços com load balancing**, utilizando Docker para orquestração de containers. Demonstra como configurar um balanceador de carga Nginx para distribuir requisições entre múltiplos servidores backend, gerenciados em um cluster containerizado.
 
@@ -12,7 +12,7 @@ A solução inclui:
 - 🗄️ Banco de dados MySQL
 - 🐳 Containerização completa com Docker
 
-## 🎯 Objetivo
+##  Objetivo
 
 Exemplificar a utilização prática do Docker em um cenário de **arquitetura de microsserviços**, demostrando:
 - Containerização de aplicações
@@ -20,7 +20,7 @@ Exemplificar a utilização prática do Docker em um cenário de **arquitetura d
 - Comunicação entre containers
 - Persistência de dados
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Docker** - Containerização
 - **Nginx** - Servidor web e load balancer
@@ -28,7 +28,7 @@ Exemplificar a utilização prática do Docker em um cenário de **arquitetura d
 - **MySQL** - Banco de dados
 - **Linux** - Sistema operacional
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 projeto-nginx-cluster/
@@ -42,7 +42,7 @@ projeto-nginx-cluster/
 └── README.md              # Este arquivo
 ```
 
-## 🔧 Componentes
+##  Componentes
 
 ### Dockerfile
 Cria uma imagem Docker baseada em Nginx com configuração customizada para funcionar como load balancer.
@@ -63,7 +63,7 @@ Aplicação PHP que:
 Define a tabela `dados` com campos para armazenar informações:
 - AlunoID, Nome, Sobrenome, Endereco, Cidade, Host
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 
 - Docker instalado ([Download](https://www.docker.com/get-started))
 - Docker Compose (opcional)
@@ -72,7 +72,7 @@ Define a tabela `dados` com campos para armazenar informações:
   - Docker e containers
   - Networking
 
-## 💻 Como Usar
+##  Como Usar
 
 ### Pré-requisito: Arquivo .env
 Copie o arquivo `.env.configuration` para `.env` e configure as variáveis:
@@ -148,7 +148,7 @@ docker-compose down
 docker-compose down -v
 ```
 
-## 🔧 Serviços Inclusos
+##  Serviços Inclusos
 
 ## � Serviços Inclusos
 
@@ -167,7 +167,7 @@ docker-compose down -v
 - **Métricas Nginx**: `http://localhost:4500/metrics`
 - **MySQL**: `localhost:3306` (dentro da rede: `mysql:3306`)
 
-## ⚙️ Configuração
+##  Configuração
 
 ### Variáveis de Ambiente
 Edite o arquivo `.env` para personalizar:
@@ -211,7 +211,7 @@ nginx:
     - "8080:4500"  # Mapeia localhost:8080 para container:4500
 ```
 
-## 🛠️ Solução de Problemas
+##  Solução de Problemas
 
 ### Container não inicia
 ```bash
@@ -248,7 +248,7 @@ docker-compose down -v
 docker-compose up -d --build
 ```
 
-## 📊 Monitoramento
+##  Monitoramento
 
 ### Health Check Status
 ```bash
@@ -284,7 +284,7 @@ docker stats
 docker-compose exec mysql du -sh /var/lib/mysql
 ```
 
-## 📚 Referências
+##  Referências
 
 - [Documentação Docker](https://docs.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
@@ -292,15 +292,15 @@ docker-compose exec mysql du -sh /var/lib/mysql
 - [PHP PDO](https://www.php.net/manual/en/book.pdo.php)
 - [MySQL Docker Hub](https://hub.docker.com/_/mysql)
 
-## 👨‍🏫 Créditos
+##  Créditos
 
 Baseado em conteúdo educacional sobre Docker e microsserviços.
 
-## 📄 Licença
+##  Licença
 
 Este projeto é fornecido como material educacional.
 
-## ❓ Dúvidas e Contribuições
+##  Dúvidas e Contribuições
 
 Para dúvidas ou sugestões, abra uma **Issue** ou envie um **Pull Request**.
 
