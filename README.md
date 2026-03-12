@@ -7,10 +7,10 @@
 Este projeto implementa uma arquitetura de **microsserviços com load balancing**, utilizando Docker para orquestração de containers. Demonstra como configurar um balanceador de carga Nginx para distribuir requisições entre múltiplos servidores backend, gerenciados em um cluster containerizado.
 
 A solução inclui:
-- 🔄 Balanceador de carga Nginx com round-robin
-- 🐘 Aplicação PHP para backend
-- 🗄️ Banco de dados MySQL
-- 🐳 Containerização completa com Docker
+-  Balanceador de carga Nginx com round-robin
+-  Aplicação PHP para backend
+-  Banco de dados MySQL
+-  Containerização completa com Docker
 
 ##  Objetivo
 
@@ -150,7 +150,7 @@ docker-compose down -v
 
 ##  Serviços Inclusos
 
-## � Serviços Inclusos
+##  Serviços Inclusos
 
 | Serviço | Container | Porta | Descrição |
 |---------|-----------|-------|-----------|
@@ -160,7 +160,7 @@ docker-compose down -v
 | **PHP-FPM 3** | php-fpm-3 | 9000 | Backend #3 |
 | **MySQL** | mysql-db | 3306 | Banco de dados |
 
-## 🌐 Endpoints
+##  Endpoints
 
 - **Aplicação**: `http://localhost:4500`
 - **Health Check**: `http://localhost:4500/health`
